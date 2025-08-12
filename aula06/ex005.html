@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt("Qual o seu nome? ")
+        var n1 = Number(window.prompt('Digite um número: '))
+        document.write(`Seu nome é ${nome} <br> em Maiúsculo é ${nome.toUpperCase()}<br>`)
+        document.write(`Você digitou o número ${n1} e ele multiplicado por 2 é ${n1 * 2} <br>`)
+        n2 = 1780.5
+        n2.toFixed(2).replace('.', ',')
+        document.write(n2.toLocaleString('pt-BR',{style:'currency',currency:'BRL'}))
+
+    </script>
+</body>
+</html>
