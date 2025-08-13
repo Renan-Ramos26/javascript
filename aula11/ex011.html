@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Estrangeiro</title>
+</head>
+<body>
+    <h1>Identificando Estrangeiros</h1>
+    Qual país você é: <input type="text" id="txt">
+    <input type="button" value="Verificar" onclick="país()">
+    <div id="res">
+
+    </div>
+    <script>
+        var txt = document.querySelector('input#txt')
+        var res = document.querySelector('div#res')
+       function país() {
+            if (txt.value.toUpperCase() == 'BRASIL' ){
+                res.innerHTML = 'Brasileiro!!'
+            } else {
+                res.innerHTML = 'Estrangeiro!!'
+            }
+       }
+    </script>
+</body>
+</html>
