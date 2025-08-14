@@ -27,7 +27,11 @@ main {
     margin-bottom: 20px;
 }
 
-div#msg {
+p {
+    padding: 10px;
+}
+
+div#res {
     text-align: center;
     font: bolder;
 }
