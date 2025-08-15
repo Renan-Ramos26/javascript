@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(40, 114, 252);
+}
+
+header {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 30px;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.397);
+    margin-bottom: 20px;
+}
+
+div > p {
+    text-align: justify;
+    padding: 10px;
+    font: bolder;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 250px;         /* Define um tamanho pequeno */
+    height: 250px;        /* Pode ser fixo ou auto */
+    border-radius: 50%;   /* Deixa a borda redonda (circular se for quadrada) */
+    object-fit: cover;    /* Garante que a imagem preencha sem distorcer */
+
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
