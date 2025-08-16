@@ -27,9 +27,9 @@ main {
     margin-bottom: 20px;
 }
 
-div#msg {
-    text-align: center;
+div {
     font: bolder;
+    padding: 10px;
 }
 
 img {

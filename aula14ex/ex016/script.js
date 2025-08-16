@@ -3,7 +3,7 @@ function contar(){
     var n2t = document.getElementById('txtn2')
     var passot = document.getElementById('txtp')
     var res = document.getElementById('res')
-    if ( n1t.value.length == 0 || n2t.value.length ==0 || passot.value.length == 0){
+    if ( n1t.value.length == 0 || n2t.value.length ==0 ){
         res.innerHTML = 'Impossível contar!'
         window.alert('[ERRO] dados inválidos!!')
     } else {
