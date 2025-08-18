@@ -27,7 +27,11 @@ main {
     margin-bottom: 20px;
 }
 
-input#txtn{
+select#flista {
+    width: 150px;
+}
+
+input#fnum{
     width: 120px;
 }
 
