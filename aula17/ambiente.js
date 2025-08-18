@@ -5,3 +5,7 @@ let amigo = {nome:'Renan',sexo:'M', peso:88,
 }}
 amigo.engordar(2)
 console.log(`${amigo.nome} pesa ${amigo.peso}Kg`)
+
+let num = 8
+num **= 2
+console.log(num.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'}))
